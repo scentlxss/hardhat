@@ -1,5 +1,11 @@
 # hardhat
 
+## 2.9.4
+
+### Patch Changes
+
+- 7403ec1d: Stop publishing tsconfig.json files
+
 ## 2.9.3
 
 ### Patch Changes
