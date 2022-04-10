@@ -2,6 +2,13 @@ import { ChainConfig } from "./types";
 
 // See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md#list-of-chain-ids
 export const chainConfig: ChainConfig = {
+  cronos: {
+    chainId: 25,
+    urls: {
+      apiURL: "https://api.cronoscan.com/api",
+      browserURL: "https://api.cronoscan.com"
+    },
+  },
   mainnet: {
     chainId: 1,
     urls: {
